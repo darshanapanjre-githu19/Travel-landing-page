@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2 style=" text-align :center;">Change Background Color</h2>
+
+<div style="text-align:center; margin-top:50px;">
+    <button onclick="changeColor()" 
+    style="padding:10px 20px; font-size:16px;  color:black; border:none; border-radius:6px; cursor:pointer;">
+        Click Me
+    </button>
+</div>
+
+
+
+<script>
+
+function changeColor(){
+
+document.body.style.backgroundColor =
+"#"+Math.floor(Math.random()*16777215).toString(16)
+
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+
+html{
+scroll-behavior: smooth;
+}
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#2c3e50;
+color:white;
+padding:15px 30px;
+}
+
+nav a{
+color:white;
+margin:0 10px;
+text-decoration:none;
+}
+
+.menu-btn{
+display:none;
+font-size:20px;
+background:none;
+border:none;
+color:white;
+}
+
+/* Hero */
+
+.hero{
+height:80vh;
+background:url("image/hero.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h2{
+font-size:50px;
+}
+
+.hero button{
+padding:12px 25px;
+background:#3498db;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* Cards */
+
+.destinations{
+padding:40px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+width:250px;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.card h3{
+margin:10px;
+}
+
+.card p{
+margin:10px;
+}
+
+/* Booking */
+
+.booking{
+background:white;
+padding:40px;
+text-align:center;
+}
+
+.booking form{
+display:flex;
+flex-direction:column;
+gap:10px;
+max-width:300px;
+margin:auto;
+}
+
+.booking input,
+.booking select{
+padding:10px;
+}
+
+.booking button{
+background:#3498db;
+border:none;
+padding:10px;
+color:white;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+nav{
+display:none;
+flex-direction:column;
+}
+
+nav.show{
+display:flex;
+}
+
+.menu-btn{
+display:block;
+}
+
+.cards{
+flex-direction:column;
+align-items:center;
+}
+
+}
