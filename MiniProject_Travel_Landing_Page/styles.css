@@ -98,9 +98,6 @@ margin:10px;
 .card p{
 margin:10px;
 }
-
-
-
 .booking{
 background:white;
 padding:40px;
@@ -128,8 +125,6 @@ color:white;
 cursor:pointer;
 }
 
-
-
 footer{
 background:#2c3e50;
 color:white;
@@ -137,10 +132,7 @@ text-align:center;
 padding:15px;
 }
 
-
-
 @media(max-width:768px){
-
 nav{
 display:none;
 flex-direction:column;
